@@ -12,4 +12,4 @@ Usage:
 1. Install dependencies: `npm install`
 2. Start the server: `npm start`
 
-Feel free to modify the code for learning and experimentation. It's funny
+Feel free to modify the code for learning and experimentation. Make it as real funny
