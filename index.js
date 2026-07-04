@@ -13,5 +13,9 @@ const users = [
     }
 ]
 
-const users_filter = users.filter(user => user > 19)
+const users_filter = users.filter(user => user["age"] > 19)
+const mapping_users = users.map(user => user["age"] += 1)
+const users_mapped = {...users, mapping_users}
 console.log(users_filter);
+console.log("===========================================================")
+console.log(users);
